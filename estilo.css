@@ -1,0 +1,98 @@
+html, body{
+    width: 100%;
+}
+
+body{
+    background-color: rgb(49, 68, 146);
+    font-family: Candara;
+
+}
+header{
+    background-image: url(imagens/corporativo.jpeg);
+    border-radius: 5px;
+    background-position: right top;
+    background-size: cover;
+    height: 500px;
+    padding: 10px;
+}
+.head{
+    text-align: center;
+    color: white;
+}
+.head h1{
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 2px;
+    
+}
+.head p{
+    background-color: rgba(0, 0, 0, .5);
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+    padding: 12px;
+    border-radius: 5px;
+    border-bottom: 2px solid white;
+}
+.head-nav ul{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    list-style: none;
+    
+}
+.head-nav li{
+    padding: 12px;
+    font-size: 18px;
+    
+
+}
+.head-nav a:hover{
+    color: rgba(0, 0, 0, .7);
+}
+
+.head-nav a{
+    background-color: rgba(0, 0, 0, .5);
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+.princ{
+    margin: 70px;
+}
+.art{
+    background-color: rgb(212, 212, 212);
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: 5px;
+}
+.art h1{
+    color:rgb(38, 138, 100);
+    text-transform: uppercase;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px white;
+    padding: 10px;
+    background-color: rgb(186, 186, 186);
+    border-radius: 5px;
+}
+.art a:hover{
+    color: rgb(38, 138, 100);
+}
+.art a{
+    color: rgb(98, 98, 98);
+    padding: 10px;
+    border: 1px solid rgb(38, 138, 100);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.art h2{
+    color: rgb(38, 138, 100);
+}
